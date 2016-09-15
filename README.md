@@ -12,4 +12,4 @@ Once you make the payment the download may start.
 
 Sorry, for my English, i'm not English :D
 
-To contact me: alexandregine@gmail.com
+To contact me: mrplumeprojet@gmail.com
