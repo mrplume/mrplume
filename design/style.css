@@ -1,0 +1,168 @@
+body {
+    font-family: dinL;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(file:///C:/Users/Mrplume/Desktop/csgo%20cheat/img/csgo.png);
+}
+
+header{
+	border-bottom: 2px orange solid;
+	padding-bottom: 10px;
+}
+
+h1{
+	position: relative;
+	top: -1090px;
+	left: -190px;
+	color: white;
+}
+
+.video{
+	position: relative;
+	top: -300px;
+	left: -230px;
+}
+
+#slideshow {
+	margin: auto;
+	margin-top: 30px;
+    width: 950px;
+    height: 1020px;
+    border-top: 1px solid;
+    border-bottom: 1px solid ;
+    box-shadow: 1px 1px 5px 3px black;
+    text-align: center;
+    padding-top: 500px;
+    background-color: #2D2D2D;
+}
+
+/* Header */
+#content-main {
+	margin: auto;
+    width: 800px;
+    height: auto;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: 200px;
+}
+
+#position{
+	display: inline-block;
+	padding-right: 10px;
+	position: static;
+	text-align: center;
+}
+
+/* Ne pas toucher */
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 150%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+/* Modifier le remplissage de l'animation dans le boutton */
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 200%;
+}
+/* Les modifications de ces valeurs on un impact sur tout les bouttons */
+a.animated-button:link, a.animated-button:visited {
+	display: inline-block;
+	position: relative;
+	margin: 30px auto 0;
+	padding: 10px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 0;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Victoria Buttons */
+/* Sign up */
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-one:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+}
+a.animated-button.victoria-two {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-two:after {
+	background: #D24D57;
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+	transform: translateX(-50%) translateY(-50%) rotate(25deg);
+}
+a.animated-button.victoria-three {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-three:after {
+	background: #D24D57;
+	opacity: .5;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+a.animated-button.victoria-three:hover:after {
+	height: 140%;
+	opacity: 1;
+}
+a.animated-button.victoria-four {
+	border: 2px solid #D24D57;
+}
+a.animated-button.victoria-four:after {
+	background: #D24D57;
+	opacity: .5;
+	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	-webkit-transform: translateY(-50%) translateX(-50%) rotate(90deg);
+	transform: translateY(-50%) translateX(-50%) rotate(90deg);
+}
+a.animated-button.victoria-four:hover:after {
+	opacity: 1;
+	height: 600% !important;
+}
+/* Fin Header */
+
+/* Début Footer */
+
+
+#content-footer{
+	margin: auto;
+	width: 800px;
+	height: auto;
+	background-color: grey;
+	padding-top: 100px;
+}
+
+.test{
+	border: 1px red solid;
+	margin-right: 100px;
+	text-align: center;
+}
